@@ -1,6 +1,8 @@
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
 
 .top, footer {
@@ -109,6 +111,9 @@ h2 {
     border-radius: 15px;
 }
 
+
+
+
 .quote-box {
     background-color: #E5E7EB;
     color: #1F2937;
@@ -126,4 +131,32 @@ h2 {
     font-weight: 900;
     font-size: 20px;
     align-self: flex-end;
+}
+
+
+
+
+.signup-box {
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 25px 30px;
+    margin: 50px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    button {
+        border: 2px solid white;
+    }
+}
+
+.signup-box-text {
+    color: #F9FAF8;
+    p {
+        margin-top: 2px;
+    }
+}
+
+h3 {
+    margin-bottom: 0px;
 }
